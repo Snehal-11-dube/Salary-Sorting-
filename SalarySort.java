@@ -19,7 +19,7 @@ public class SalarySort
 			A[i] = sc.nextFloat();
 		}
 
-		for(int i=0; i<n; i++)
+		for(int i=0; i<n-1; i++)
 		{
 			int minIdx = i;
 
@@ -49,4 +49,5 @@ public class SalarySort
 			System.out.println(A[i]);
 		}
 	}
+
 }
